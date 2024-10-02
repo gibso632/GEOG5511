@@ -18,7 +18,7 @@ require([
   });
 
   // Step 6: Load GeoJSON data (we’ll use a local file or URL)
-  const geojsonUrl = "C:\Users\ericg\OneDrive\Documents\GIS 5511 Principles of Cartography\Lab 3\rivers.json";
+  const geojsonUrl = "https://github.com/gibso632/GEOG5511/blob/main/rivers.json";
 
   // Create a GeoJSON layer from the data
   const geojsonLayer = new GeoJSONLayer({
